@@ -1,0 +1,40 @@
+.hand{
+    display: none;
+    flex-wrap: wrap;
+    width: 312px;
+    border: 1px solid black;
+}
+
+.card{
+    min-width: 40px;
+    max-width: 40px;
+    height: 70px;
+    border: 2px solid black;
+    border-radius: 5px;
+    position: relative;
+    margin: 4px;
+}
+
+.♦, .♥{
+    color: red;
+}
+
+.♣, .♠{
+    color: black;
+}
+
+.card > p{
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.upperLeft{
+    
+}
+
+.lowerRight{
+    position: absolute;
+    right: 5%;
+    bottom: 0%;
+}
